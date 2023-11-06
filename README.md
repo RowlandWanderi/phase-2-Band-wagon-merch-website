@@ -1,1 +1,1 @@
-# phase-2-Band-wagon-merch-website
+## Phase 2 Bandwagon app
