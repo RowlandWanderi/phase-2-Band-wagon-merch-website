@@ -1,1 +1,1 @@
-## Phase 2 Bandwagon app
+# Phase 2 Bandwagon app
