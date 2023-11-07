@@ -177,19 +177,19 @@
         "name": "Tupac",
         "price":1500,
         "description": "Praying T-shirt",
-        "image_url": "https://image-cdn.hypb.st/https%3A%2F%2Fhypebeast.com%2Fimage%2F2021%2F06%2F2pac-estate-pride-month-merch-collection-release-info-005.jpg?cbr=1&q=90",
+        "image_url": "https://i.ebayimg.com/images/g/TXkAAOSw~rxeu97w/s-l1600.jpg",
         "reviews": [
           "Black T-shirt"
         ]
       },
       {
         "id": 18,
-        "name": "OVO women's",
+        "name": "OVO T-shirt",
         "price":1500,
-        "description": "Women's cropped T-shirt",
-        "image_url": "https://res.cloudinary.com/shogun-frontend/image/fetch/f_auto,q_auto:eco/https://f.shgcdn.com/a44abf11-ef0f-4df9-bcf5-bd46b542a7ec/",
+        "description": "Drake OVO T-shirt",
+        "image_url": "https://www.magic-custom.com/10225-large_default/ovo-t-shirt-col-rond-original-owl.webp",
         "reviews": [
-          "Black Crop top"
+          "Black OVO T-shirt"
         ]
       },
       {
