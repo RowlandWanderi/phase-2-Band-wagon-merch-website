@@ -5,7 +5,7 @@ import Swal from 'sweetalert2'
 export default function Product({product,onChange, setOnchange}) {
 
   function deleteProduct(){
-    fetch(`http://localhost:3000/Tshirts/${Product.id}`,{
+    fetch(`http://localhost:3000/Tshirts/${product.id}`,{
       method: 'DELETE'
     })
     .then(resp => resp.json())
@@ -48,7 +48,7 @@ export default function Product({product,onChange, setOnchange}) {
     })
   }
   return (
-    <div className='card col-md-3git  mb-3 '>
+    <div className='card col-md-3 mb-3 '>
       <img src={product.image_url} alt="Loading" className="img-fluid"/>
       <div className='card-body'>
       <h5 className="card-title">{product.name}</h5>
