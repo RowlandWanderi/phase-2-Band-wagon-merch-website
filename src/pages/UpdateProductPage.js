@@ -1,7 +1,7 @@
 import React from 'react'
 
-export default function SingleProduct() {
+export default function UpdateProductPage() {
   return (
-    <div>SingleProduct</div>
+    <div>UpdateProduct</div>
   )
 }

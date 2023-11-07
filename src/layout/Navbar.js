@@ -16,6 +16,9 @@ export default function Navbar() {
                     <Link className="nav-link active text-light" aria-current="page" to="/">Home</Link>
                   </li>
                   <li className="nav-item">
+                    <Link className="nav-link active text-light" to="addproduct">Sell</Link>
+                  </li>
+                  <li className="nav-item">
                     <Link className="nav-link active text-light" to="about">About us</Link>
                   </li>
                   <li className="nav-item">
