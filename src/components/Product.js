@@ -55,9 +55,12 @@ export default function Product({product,onChange, setOnchange}) {
        <p className="card-text">{product.description}</p>
        <p className="card-text">Kshs &nbsp;{product.price}</p>
        <Link to={`/products/${product.id}`}>
-          <button type="button" className="btn btn-info">View Item</button>
+          <button type="button" className="btn btn-info m-1">Update Product Details</button>
        </Link>
-       <button onClick={()=> deleteProduct()}type="button" className="btn btn-danger">Delete Item</button>
+       <Link to={`reviews/${product.id}`}>
+          <button type="button" className="btn btn-info m-1">Review this product</button>
+       </Link>
+       <button onClick={()=> deleteProduct()}type="button" className="btn btn-danger m-1">Delete Item</button>
       </div>
     </div>
   )

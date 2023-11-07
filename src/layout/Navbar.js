@@ -1,5 +1,6 @@
 import React from 'react'
 import images from '../images/bandwagonLogo-removebg-preview.png'
+import { Link } from 'react-router-dom'
 
 export default function Navbar() {
   return (
@@ -12,13 +13,13 @@ export default function Navbar() {
             <span className="navbar-text fs-3">
                 <ul className="navbar-nav me-auto mb-2 mb-lg-0 ">
                   <li className="nav-item">
-                    <a className="nav-link active text-light" aria-current="page" href="">Home</a>
+                    <Link className="nav-link active text-light" aria-current="page" to="/">Home</Link>
                   </li>
                   <li className="nav-item">
-                    <a className="nav-link active text-light" href="">About us</a>
+                    <Link className="nav-link active text-light" to="about">About us</Link>
                   </li>
                   <li className="nav-item">
-                    <a className="nav-link active text-light" href="">Contacts</a>
+                    <Link className="nav-link active text-light" to="contacts">Contacts</Link>
                   </li>
                 </ul>
             </span>
