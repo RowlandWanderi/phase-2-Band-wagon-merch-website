@@ -49,7 +49,7 @@
         "name": "Bob Marley Free Our Mind T-Shirt",
         "price": 1400,
         "description": "Bob Marley",
-        "image_url": "//cavo.ae/cdn/shop/products/887982019967-1_1024x1024.jpg?v=1612353758",
+        "image_url": "https://cavo.ae/cdn/shop/products/887982019967-1_1024x1024.jpg?v=1612353758",
         "reviews": [
           "Such a legend.",
           "I've been looking for this. I love it!"
@@ -152,5 +152,115 @@
           "Brutality of war"
         ]
       },
+      {
+        "id": 15,
+        "name": "Pestilence",
+        "price": 2200,
+        "description": "Consuming impulse T-shirt",
+        "image_url": "https://www.nuclearblast.com/media/catalog/product/1/0/1066081-1.jpg?optimize=medium&bg-color=255,255,255&fit=bounds&height=&width=&canvas=:",
+        "reviews": [
+          "Black T-shirt"
+        ]
+      },
+      {
+        "id": 16,
+        "name": "Kreator",
+        "price": 2100,
+        "description": "Midnight Sun T-shirt",
+        "image_url": "https://www.nuclearblast.com/media/catalog/product/1/0/1001996-1.jpg?optimize=medium&bg-color=255,255,255&fit=bounds&height=&width=&canvas=:",
+        "reviews": [
+          "Black T-shirt"
+        ]
+      },
+      {
+        "id": 17,
+        "name": "Tupac",
+        "price":1500,
+        "description": "Praying T-shirt",
+        "image_url": "https://image-cdn.hypb.st/https%3A%2F%2Fhypebeast.com%2Fimage%2F2021%2F06%2F2pac-estate-pride-month-merch-collection-release-info-005.jpg?cbr=1&q=90",
+        "reviews": [
+          "Black T-shirt"
+        ]
+      },
+      {
+        "id": 18,
+        "name": "OVO women's",
+        "price":1500,
+        "description": "Women's cropped T-shirt",
+        "image_url": "https://res.cloudinary.com/shogun-frontend/image/fetch/f_auto,q_auto:eco/https://f.shgcdn.com/a44abf11-ef0f-4df9-bcf5-bd46b542a7ec/",
+        "reviews": [
+          "Black Crop top"
+        ]
+      },
+      {
+        "id": 19,
+        "name": "Lil Boat 3",
+        "price":3500,
+        "description": "Black hoodie 1997",
+        "image_url": "https://lilyachtyshop.com/cdn/shop/products/1100-5_be9ff4b9-50ae-4043-b3e4-95d5b28f3a30.png?v=1594938085",
+        "reviews": [
+          "Black Hoodie"
+        ]
+      },
+      {
+        "id": 20,
+        "name": "Migos",
+        "price":3500,
+        "description": "Culture II Black hoodie",
+        "image_url": "https://shop.migosofficial.com/cdn/shop/products/CULTUREIIHOODIE.png?v=1644442915",
+        "reviews": [
+          "Black Hoodie"
+        ]
+      },
+      {
+        "id": 21,
+        "name": "Only The Family (OTF)",
+        "price":3500,
+        "description": "OTF Black hoodie",
+        "image_url": "https://otfgear.com/cdn/shop/products/ONLYTHEFAMILYHOODIEBLACK_300x300.png?v=1663036034",
+        "reviews": [
+          "Black Hoodie"
+        ]
+      },
+      {
+        "id": 22,
+        "name": "Kodak Black",
+        "price":3500,
+        "description": "KB Face hoodie",
+        "image_url": "https://store.officialkodakblack.com/dw/image/v2/BHCC_PRD/on/demandware.static/-/Sites-warner-master/default/dw1380e67f/pdp-img/KODAK%20BLACK/Kodak_Hoodie_ProductImage.png?sw=550&sh=550&sm=fit",
+        "reviews": [
+          "Black Hoodie"
+        ]
+      },
+      {
+        "id": 23,
+        "name": "The Weeknd",
+        "price":2000,
+        "description": "Dawn FM black T-shirt",
+        "image_url": "https://xo.store/cdn/shop/products/DFM-TEE-BLACK-FRONT_800x.png?v=1641073237",
+        "reviews": [
+          "Black T-shirt"
+        ]
+      },
+      {
+        "id": 24,
+        "name": "BAPE Gobelin",
+        "price":3800,
+        "description": "Patch Pullover Hoodie",
+        "image_url": "https://bape.com/cdn/shop/files/001PPJ801051_BLK_A_520x.jpg?v=1698816320",
+        "reviews": [
+          "Black Hoodie"
+        ]
+      },
+      {
+        "id": 25,
+        "name": "Opeth",
+        "price":3800,
+        "description": "Opeth Black T-shirt",
+        "image_url": "https://merchbar.imgix.net/product/194/7952/7568404939010/JgQEIT6WPH11943.jpg?q=40&auto=compress,format&w=1400",
+        "reviews": [
+          "Black T-shirt"
+        ]
+      }
     ]
   }
