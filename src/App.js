@@ -5,8 +5,8 @@ import About from './pages/About';
 import Contacts from './pages/Contacts'
 import Home from './pages/Home'
 import UpdateProductPage from './pages/UpdateProductPage'
-import AddProduct from './pages/AddProduct'
-import ReviewProduct from './components/ReviewProduct';
+import AddProductPage from './pages/AddProductPage'
+import ReviewProductPage from './pages/ReviewProductPage'
 
 function App() {
   return (
@@ -15,9 +15,9 @@ function App() {
           <Route path='/' element={<Layout/>}>
             <Route index element = {<Home/>}/>
             <Route path='about' element={<About/>}/>
-            <Route path='addproduct' element={<AddProduct/>}/>
+            <Route path='addproduct' element={<AddProductPage/>}/>
             <Route path='products/:id' element={<UpdateProductPage/>}/>
-            <Route path='reviews/:id' element={<ReviewProduct/>}/>
+            <Route path='reviews/:id' element={<ReviewProductPage/>}/>
             <Route path='contacts' element={<Contacts/>}/>
           </Route>
         </Routes>

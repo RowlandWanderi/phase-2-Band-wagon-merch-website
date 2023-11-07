@@ -8,9 +8,18 @@ export default function UpdateProductPage() {
   const [product,setProduct] = useState([])
 
   useEffect(()=>{
-    fetch(`http://localhost:3000/Tshirts/`)
-  })
+    fetch(`http://localhost:3000/Tshirts/${id}`)
+    .then(resp => resp.json())
+    .then(data =>{
+      setProduct(data)
+    })
+  },[])
+  console.log(product)
   return (
-    <div>UpdateProduct</div>
+    <div className='container row'>
+      <div className='col-md-6'>
+
+      </div>
+    </div>
   )
 }
