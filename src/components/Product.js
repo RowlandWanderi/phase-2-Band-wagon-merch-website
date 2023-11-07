@@ -24,7 +24,7 @@ export default function Product({product,onChange, setOnchange}) {
       if (result.isConfirmed) {
         swalWithBootstrapButtons.fire({
           title: "Deleted!",
-          text: "Your file has been deleted.",
+          text: "Your product has been deleted.",
           icon: "success"
         });
         fetch(`http://localhost:3000/Tshirts/${product.id}`,{
@@ -36,12 +36,11 @@ export default function Product({product,onChange, setOnchange}) {
       setOnchange(!onChange)
     })
       } else if (
-        /* Read more about handling dismissals below */
         result.dismiss === Swal.DismissReason.cancel
       ) {
         swalWithBootstrapButtons.fire({
           title: "Cancelled",
-          text: "Your imaginary file is safe :)",
+          text: "Your product is safe :)",
           icon: "error"
         });
       }
