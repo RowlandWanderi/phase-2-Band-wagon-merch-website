@@ -44,7 +44,7 @@ export default function ReviewProduct({product,onChange, setOnchange}) {
         <form onSubmit={reviewProduct}>
         <div className="mb-3">
                 <label className="form-label">Your Review</label>
-                <input type="text" value={addedReview || product.review} onChange={e=>setAddedReview(e.target.value)} className="form-control" required />
+                <input type="text" value={addedReview } onChange={e=>setAddedReview(e.target.value)} className="form-control" required />
             </div>
             <button type="submit" className="btn btn-success">Add Review</button>
         </form>
