@@ -26,9 +26,6 @@ export default function UpdateProductPage() {
         <h1>{product.name}</h1>
         <p>{product.description}</p>
         <p>PRICE: KSH &nbsp;{product.price}</p>
-        {product.is_inCart === true?
-        <button className='btn btn-sm btn-danger'>Remove from cart</button>:
-        <button className='btn btn-sm btn-success'>Add to Cart</button>}
         <UpdateProduct product={product} onChange={onChange} setOnchange={setOnchange} />
       </div>
     </div>

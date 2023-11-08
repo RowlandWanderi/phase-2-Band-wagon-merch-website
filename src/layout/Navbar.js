@@ -15,9 +15,7 @@ export default function Navbar() {
                   <li className="nav-item">
                     <Link className="nav-link active text-light" aria-current="page" to="/">Home</Link>
                   </li>
-                  <li className="nav-item">
-                    <Link className="nav-link active text-light" to="addproduct">Sell</Link>
-                  </li>
+                  
                   <li className="nav-item">
                     <Link className="nav-link active text-light" to="about">About us</Link>
                   </li>
@@ -28,6 +26,17 @@ export default function Navbar() {
             </span>
           </div>
         </nav>
+        <nav className="navbar navbar-light bg-light">
+  <form className="container-fluid justify-content-start">
+  <Link className="nav-link active text-black" to="addproduct">
+    <button className="btn btn-outline-success me-2" type="button">Sell Your Product</button>
+    </Link>
+    <button className="btn btn-outline-success me-2" type="button">View Cart</button>
+  </form>
+</nav>
+        
+                   
+                 
     </div>
   )
 }
