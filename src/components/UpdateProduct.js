@@ -12,7 +12,7 @@ export default function UpdateProduct({product,onChange, setOnchange }) {
   function productSubmit(event){
     event.preventDefault()
 
-    fetch(`http://localhost:3000/Tshirts/${product.id}`,{
+    fetch(`https://bandwagon-react-app-u994.onrender.com/Tshirts/${product.id}`,{
       method: 'PATCH',
       headers: {"Content-Type":"application/json" },
       body: JSON.stringify({

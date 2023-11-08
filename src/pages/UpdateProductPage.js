@@ -9,7 +9,7 @@ export default function UpdateProductPage() {
   const [onChange, setOnchange] = useState(false)
 
   useEffect(()=>{
-    fetch(`http://localhost:3000/Tshirts/${id}`)
+    fetch(`https://bandwagon-react-app-u994.onrender.com/Tshirts/${id}`)
     .then(resp => resp.json())
     .then(data =>{
       setProduct(data)

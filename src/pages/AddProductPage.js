@@ -10,7 +10,7 @@ export default function AddProductPage() {
   function submitProduct(event){
     event.preventDefault()
     
-    fetch(`http://localhost:3000/Tshirts`,{
+    fetch(`https://bandwagon-react-app-u994.onrender.com/Tshirts`,{
       method: 'POST',
       headers: {"Content-Type":"application/json" },
       body: JSON.stringify({

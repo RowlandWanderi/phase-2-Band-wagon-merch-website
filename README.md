@@ -12,15 +12,12 @@ This is project is a React application called the BandWagon that allows you to r
 ## Running the Application
     - Clone this repository to your local machine.
     - Open the folder with vs code.
-    - A json server is required for this project so we need to install it and run this command to get the backend started:
+    - A json server is required for this project so we need to get the backend started:
 
-        ```sh
-        json-server --watch db.json
-        ```
 
         Test your server by visiting this route in the browser:
 
-        [http://localhost:3000/Tshirts](http://localhost:3000/Tshirts)
+        [https://bandwagon-react-app-u994.onrender.com/Tshirts](https://bandwagon-react-app-u994.onrender.com/Tshirts)
 
     - You also need to install the react router dom by typing
 
@@ -45,6 +42,11 @@ This is project is a React application called the BandWagon that allows you to r
   - Font awesome icons
   - Sweet alert pop ups
 
+## Live link
+Deployed Frontend can be accessed here [Blog](https://654bfdea5dd1fd529c070d27--resplendent-starlight-f875aa.netlify.app/) 
+
+
+Deployed Backend can be accessed here [Blog](https://bandwagon-react-app-u994.onrender.com/Tshirts) 
 
 ## Deliverables
 

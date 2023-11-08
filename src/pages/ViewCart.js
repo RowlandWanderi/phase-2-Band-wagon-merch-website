@@ -6,7 +6,7 @@ export default function ViewCart() {
     const [onChange, setOnchange] = useState(false)
 
   useEffect(() =>{
-    fetch("http://localhost:3000/Tshirts")
+    fetch("https://bandwagon-react-app-u994.onrender.com/Tshirts")
     .then(resp => resp.json())
     .then(data =>{
         const filteredProducts = data.filter((product) => product.is_inCart === true)

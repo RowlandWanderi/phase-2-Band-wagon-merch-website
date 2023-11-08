@@ -1,4 +1,4 @@
-import React, { useState,useEffect } from 'react'
+import React, { useState } from 'react'
 import Swal from 'sweetalert2'
 
 export default function ReviewProduct({product,onChange, setOnchange}) {
@@ -8,7 +8,7 @@ export default function ReviewProduct({product,onChange, setOnchange}) {
   function reviewProduct(event){
     event.preventDefault()
     
-    fetch(`http://localhost:3000/Tshirts/${product.id}`,{
+    fetch(`https://bandwagon-react-app-u994.onrender.com/Tshirts/${product.id}`,{
       method: 'PATCH',
       headers: {"Content-Type":"application/json" },
       body: JSON.stringify({
