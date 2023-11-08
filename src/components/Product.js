@@ -94,12 +94,12 @@ const checkAdd = insidecart ? "btn btn-danger" : "btn btn-success"
           
               <button type="button" className="btn btn-info m-1">
                 <Link id='link' to={`/products/${product.id}`}>
-                Update Product Details
+                Update 
                 </Link>
               </button>
               <button type="button" className="btn btn-info m-1">
               <Link id='link'to={`reviews/${product.id}`}>
-                Review this product
+                Review 
                 </Link>
               </button>
           

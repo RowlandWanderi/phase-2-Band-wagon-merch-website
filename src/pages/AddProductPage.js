@@ -48,7 +48,7 @@ export default function AddProductPage() {
   return (
     <div className='container row mt-5'>
         <div className='col-md-6'>
-            <h1>ADD PRODUCT</h1>
+            <h1>ADD PRODUCT:</h1>
         </div>
         <div className='col-md-6'>
            <form onSubmit={submitProduct}>

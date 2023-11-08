@@ -27,7 +27,7 @@ export default function Navbar() {
           </div>
         </nav>
         <nav className="navbar navbar-light bg-light">
-  <form className="container-fluid justify-content-start">
+  <form className="container-fluid justify-content-start d-flex flex-row-reverse bd-highlight">
   <Link className="nav-link active text-black" to="addproduct">
     <button className="btn btn-outline-success me-2" type="button">Sell Your Product</button>
     </Link>
