@@ -18,7 +18,15 @@ export default function UpdateProductPage() {
   return (
     <div className='container row'>
       <div className='col-md-6'>
-
+        <img src={product.image_url} className='img-fluid' alt="loading"/>
+      </div>
+      <div className='col-md-6'>
+        <h1>{product.name}</h1>
+        <p>{product.description}</p>
+        {product.is_inCart === true?
+        <button className='btn btn-sm btn-danger'>Remove from cart</button>:
+        <button className='btn btn-sm btn-success'>Add to Cart</button>}
+        <UpdateProduct product={product}/>
       </div>
     </div>
   )
