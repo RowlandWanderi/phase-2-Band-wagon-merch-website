@@ -31,7 +31,10 @@ export default function Navbar() {
   <Link className="nav-link active text-black" to="addproduct">
     <button className="btn btn-outline-success me-2" type="button">Sell Your Product</button>
     </Link>
+    <Link to='viewcart'>
     <button className="btn btn-outline-success me-2" type="button">View Cart</button>
+    </Link>
+    
   </form>
 </nav>
         

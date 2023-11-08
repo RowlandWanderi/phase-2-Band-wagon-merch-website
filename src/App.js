@@ -7,6 +7,7 @@ import Home from './pages/Home'
 import UpdateProductPage from './pages/UpdateProductPage'
 import AddProductPage from './pages/AddProductPage'
 import ReviewProductPage from './pages/ReviewProductPage'
+import ViewCart from './pages/ViewCart';
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
             <Route path='products/:id' element={<UpdateProductPage/>}/>
             <Route path='reviews/:id' element={<ReviewProductPage/>}/>
             <Route path='contacts' element={<Contacts/>}/>
+            <Route path='viewcart' element={<ViewCart/>}/>
           </Route>
         </Routes>
       </BrowserRouter>
