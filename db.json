@@ -29,10 +29,10 @@
       "id": 3,
       "name": "A Perfect Circle T-shirt",
       "price": 1300,
-      "description": "A Perfect Circle Unisex T-Shirt The Depths",
+      "description": "A Perfect Circle Unisex Black T-Shirt The Depths",
       "image_url": "https://m.media-amazon.com/images/I/61mwTy+gxfL._AC_UX466_.jpg",
       "reviews": "The graphics are sick on this one!",
-      "is_inCart": true
+      "is_inCart": false
     },
     {
       "id": 4,
@@ -44,7 +44,7 @@
         "awesome",
         "I got my delivery in a few hours. HIghly recommend these guys!"
       ],
-      "is_inCart": true
+      "is_inCart": false
     },
     {
       "id": 5,
@@ -56,7 +56,7 @@
         "Such a legend.",
         "I've been looking for this. I love it!"
       ],
-      "is_inCart": true
+      "is_inCart": false
     },
     {
       "id": 6,
@@ -79,7 +79,7 @@
         "I like the logo.",
         "I didn't get the size I wanted."
       ],
-      "is_inCart": true
+      "is_inCart": false
     },
     {
       "id": 8,
@@ -140,7 +140,7 @@
         "Wish it came in my size.",
         "Seems a bit expensive."
       ],
-      "is_inCart": true
+      "is_inCart": false
     },
     {
       "id": 13,
@@ -282,6 +282,15 @@
         "Black T-shirt"
       ],
       "is_inCart": false
+    },
+    {
+      "name": "IRON MAIDEN hoodie",
+      "description": "Eddy checkshirt red sweathood - Hoodie",
+      "image_url": "https://www.nuclearblast.com/media/catalog/product/1/0/1075350-1.jpg?optimize=medium&bg-color=255,255,255&fit=bounds&height=&width=&canvas=:",
+      "price": "3000",
+      "is_inCart": false,
+      "reviews": [],
+      "id": 26
     }
   ]
 }
