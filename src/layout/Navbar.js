@@ -7,9 +7,9 @@ export default function Navbar() {
     <div>
       <nav className="navbar navbar-expand-lg bg-dark">
         <div className="container-fluid">
-          <a className="navbar-brand" href="">
+          <Link className="navbar-brand" to="/">
             <img src={images} alt ="Loading" width = {200}/>
-          </a>
+          </Link>
             <span className="navbar-text fs-3">
                 <ul className="navbar-nav me-auto mb-2 mb-lg-0 ">
                   <li className="nav-item">
