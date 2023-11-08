@@ -68,8 +68,6 @@ export default function AddProductPage() {
                 <label className="form-label">Price</label>
                 <input type="number" value={price}  onChange={e=>setPrice(e.target.value)} className="form-control" required />
             </div>
-
-            
             <button type="submit" className="btn btn-primary">Submit</button>
             </form>
 

@@ -31,9 +31,7 @@
       "price": 1300,
       "description": "A Perfect Circle Unisex T-Shirt The Depths",
       "image_url": "https://m.media-amazon.com/images/I/61mwTy+gxfL._AC_UX466_.jpg",
-      "reviews": [
-        "The graphics are sick on this one!"
-      ],
+      "reviews": "The graphics are sick on this one!",
       "is_inCart": false
     },
     {
@@ -227,9 +225,7 @@
       "price": 3500,
       "description": "Culture II Black hoodie",
       "image_url": "https://shop.migosofficial.com/cdn/shop/products/CULTUREIIHOODIE.png?v=1644442915",
-      "reviews": [
-        "Black Hoodie"
-      ],
+      "reviews": "cool",
       "is_inCart": false
     },
     {

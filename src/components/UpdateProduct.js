@@ -1,7 +1,7 @@
 import React,{useState} from 'react'
 import Swal from 'sweetalert2'
 
-export default function UpdateProduct({product}) {
+export default function UpdateProduct({product,onChange, setOnchange }) {
   const [name, setName] = useState()
   const[description, setDescription] = useState()
   const[image_url, setImageUrl] = useState()
@@ -24,6 +24,7 @@ export default function UpdateProduct({product}) {
     })
     .then(resp => resp.json())
     .then(data => {
+      setOnchange(!onChange)
       Swal.fire({
         position: "center",
         icon: "success",
@@ -40,6 +41,10 @@ export default function UpdateProduct({product}) {
         
       })
     })
+    setName("")
+    setPrice("")
+    setDescription("")
+    setImageUrl("")
   }
   return (
     <div className='container mt-5'>
@@ -62,7 +67,6 @@ export default function UpdateProduct({product}) {
                 <label className="form-label">Price</label>
                 <input type="number" value={price || product.price}  onChange={e=>setPrice(e.target.value)} className="form-control" required />
             </div>
-            
             <button type="submit" className="btn btn-success">Update</button>
         </form>
       </div>

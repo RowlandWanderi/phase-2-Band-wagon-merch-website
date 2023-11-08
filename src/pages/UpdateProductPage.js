@@ -6,6 +6,7 @@ export default function UpdateProductPage() {
 
   const {id} = useParams()
   const [product,setProduct] = useState([])
+  const [onChange, setOnchange] = useState(false)
 
   useEffect(()=>{
     fetch(`http://localhost:3000/Tshirts/${id}`)
@@ -13,8 +14,9 @@ export default function UpdateProductPage() {
     .then(data =>{
       setProduct(data)
     })
-  },[])
+  },[onChange])
   console.log(product)
+
   return (
     <div className='container row'>
       <div className='col-md-6'>
@@ -27,7 +29,7 @@ export default function UpdateProductPage() {
         {product.is_inCart === true?
         <button className='btn btn-sm btn-danger'>Remove from cart</button>:
         <button className='btn btn-sm btn-success'>Add to Cart</button>}
-        <UpdateProduct product={product}/>
+        <UpdateProduct product={product} onChange={onChange} setOnchange={setOnchange} />
       </div>
     </div>
   )
