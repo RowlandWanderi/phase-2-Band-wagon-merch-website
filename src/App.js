@@ -8,6 +8,7 @@ import UpdateProductPage from './pages/UpdateProductPage'
 import AddProductPage from './pages/AddProductPage'
 import ReviewProductPage from './pages/ReviewProductPage'
 import ViewCart from './pages/ViewCart';
+import Viewproductpage from './pages/Viewproductpage';
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
             <Route path='reviews/:id' element={<ReviewProductPage/>}/>
             <Route path='contacts' element={<Contacts/>}/>
             <Route path='viewcart' element={<ViewCart/>}/>
+            <Route path='viewproduct/:id' element={<Viewproductpage/>}/>
           </Route>
         </Routes>
       </BrowserRouter>

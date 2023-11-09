@@ -84,7 +84,10 @@ const checkAdd = insidecart ? "btn btn-danger" : "btn btn-success"
 
   return (
     <div className=' ui card col-md-3 mb-3 ' key={product.id}>
-      <img src={product.image_url} alt="Loading" className="img-fluid"/>
+      <Link to={`viewproduct/${product.id}`}>
+         <img src={product.image_url} alt="Loading" className="img-fluid"/>
+      </Link>
+     
       <div className='card-body'>
       <h5 className="card-title">{product.name}</h5>
        <p className="card-text">{product.description}</p>
@@ -92,16 +95,7 @@ const checkAdd = insidecart ? "btn btn-danger" : "btn btn-success"
        <div className='d-grid gap-2'>
           <button type="button" className={checkAdd} onClick={() => handleCart()} >{product.is_inCart ? "Remove From Cart" : "Add To Cart"}</button>
           
-              <button type="button" className="btn btn-info m-1">
-                <Link id='link' to={`/products/${product.id}`}>
-                Update 
-                </Link>
-              </button>
-              <button type="button" className="btn btn-info m-1">
-              <Link id='link'to={`reviews/${product.id}`}>
-                Review 
-                </Link>
-              </button>
+              
           
           <button type="button" onClick={()=> deleteProduct()} className="btn btn-danger m-1">Delete Item</button>
        </div>
